@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{}
+
+.headerTop{height:40px;line-height:40px;background:#282828;font-size:12px; padding:10px 0;}
+.headerTop a{color:#fff;padding:0 20px;display:block;}/*모든영역잡히도록 블락*/
+
+.lang{float:left;border-left:1px solid #231f20;border-right:1px solid #231f20;}
+.lang a{font-size:13px;margin-left:15px;}
+
+.util01{float:right;}
+.util01 li {float:left;border-left:1px solid #231f20;}
+.util01 li:last-child a{padding-right: 0;}
+.util01 li a{}
+.util01 li a img{margin-left:5px;}
+
+
+
+.headerBottom{padding:20px 0;}/*2.패딩값으로 */
+.headerBottom h1{width:180px;float:left;}
+.headerBottom h1 a{}
+.headerBottom h1 a img{width:100%; display:block;}
+
+
+
+
+.gnb{float:right;height:27px;line-height:27px;}/*1.먼저이미지 높이값만큼 메뉴를 맞추고*/
+.gnb li{float:left;padding-left:50px;}
+.gnb li a{color:#333;}
+
+
+/*푸터*/
+
+#footer{background:#1E1E1E;position:relative;}
+.ftopBtn{background:url(../images/common/btn_go_top.png) no-repeat;width:102px;height:39px;position:absolute;left:50%;margin-left:-51px; top:-39px;font-size:12px;}/*탑버튼 중간정렬하는법:왼쪽으로 오십퍼.마진레프트 넓이의 반만큼 뺴고,이미지높이만큼 빼줘야 위치 맞는다*/
+.ftopBtn a{color:#646464;display: block;height:100%;padding-top:10px;padding-left:30px;box-sizing: border-box;}
+
+.fTop{background:#282828;padding:50px 0;}
+.fTop dl{float:left;margin-right:80px;}
+.fTop dt{color:#646464;font-family:'NanumMyeongjo';font-weight:900;background:url(../images/common/bar_snb.gif) no-repeat left bottom;padding-bottom:15px;margin-bottom:15px;}
+.fTop dd{font-size:12px;font-weight:200;line-height:22px;} /*폰트사이즈가 12px이면 10픽셀 추가해서 라인해이트*/
+.fTop dd a{color:#8c8c8c;} 
+
+
+.fBottm{color:#494949;font-size:12px;position:relative;padding:50px 0;}
+
+.fLogo{width:180px;margin-bottom:20px;}/*로고 사이즈 줄여주고*/
+.fLogo img{width: 100%;}/*로고사이즈 줄이고 이미지 영역 백퍼 맞처주기*/
+
+.Finfo{}
+.Finfo span::after{content:"";display:inline-block;width:1px;height:8px;background:#646464;margin:0 5px;}
+.Finfo span:last-child:after{display:none;}
+
+.Finfo span a{color:#494949;}
+
+.copy{margin-top:20px;}
+
+.fSns{position:absolute;right:0;top:50px;}
+.fSns li{float:left;margin-left:5px;}/*씨에프안준다 부모값에 앱솔루트 띄울거니깐 푸터바틈기준으로 옆에붙어야해서릴레이티브*/
+.fSns li a{}
+.fSns li img{width:25px;}
+/*푸터*/

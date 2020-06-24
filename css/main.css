@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+
+#container{}
+
+/*메인슬라이드*/
+.mainSlider{height:650px;position:relative;overflow:hidden;}
+.mainSlider img{position:absolute;left:50%;margin-left:-960px;}/*띄어서 높이가없어져서 키잡아주고 릴레이티브 */
+
+
+
+
+
+
+
+/*mainCon01*/
+.mainCon01{background:#F5F5F5;text-align:center;padding:50px 0;}
+
+.mainCon01Wrap{display:inline-block;}/*인라인블락주고 부모에 텍스트어라인센터주면 중간정렬*/
+
+.con01{float:left;text-align: left;padding:0 80px;}
+.con01 span{display:block;}/*인라인을 블락으로 바꾸면 바로 줄바꿈됨*/
+
+
+.CLeft{}
+.CLeft h2{color:#721802;margin-bottom:30px;font-family:'NanumMyeongjo';font-weight:900;}
+.CLeft h2 span{}
+.CLeft p {font-size:14px;}
+
+.CRight{font-size:12px;font-weight:200;line-height:22px;background:url(../images/main/bg_bar_div.gif) no-repeat left center}
+.CRight span{}
+
+
+.Btn{width:40px;margin-top:20px;}
+.Btn a {}
+.Btn img{width:100%;}
+/*mainCon01*/
+
+/*mainCon02*/
+.mainCon02{color:#fff;background:url(../images/main/visual01.jpg) no-repeat center center;background-size:cover; text-align:center;padding:100px 0 50px 0;background-attachment: fixed;}
+.mainCon02 h2{background:url(../images/main/tit_line_bot.png) no-repeat center bottom;padding-bottom:15px;margin-bottom:15px;font-size:30px;font-weight:normal;}
+.mainCon02 p{font-size:12px;font-weight:200;}
+.mainCon02 .Con02Text{font-size:14px;font-weight:300;margin-bottom:15px;}
+
+.mainCon02 span{display:block;line-height:22px;}/*인라인을 블락으로 바꾸면 바로 줄바꿈됨*/
+
+
+
+.mainCon02 .Btn{display:inline-block;margin-top: 20px;}
+
+
+
+/*mainCon02*/
+
+/*mainCon03*/
+.mainCon03{text-align:center;padding:50px 0;}
+
+.con03Tit{}
+.con03Tit h2{color:#721802;font-family:'NanumMyeongjo';font-weight:900;}
+.con03Tit p{font-size:14px;margin:15px 0;}
+
+.con03Menu{}
+.con03Menu li{float:left;position:relative;margin-left:3px;margin-top:3px;}
+.con03Menu li:first-child{margin-left:0;}
+.con03Menu li a{color:#333;}
+.con03Menu li img{display:block;}/*이미지는 인라인이라 엔터공백생겨서 블락처리해줌*/
+
+.menuInfo{width:100%; position:absolute;bottom:20px;}/*앱솔루트 띄였더니 그 케잌만 동그러니 다른케잌들 끌어올리려면(중간정렬틀어지니깐)위드 백퍼주고 릴레이티브 주면 중간정렬됨*/
+
+.menuInfo h4{color:#7d645a;font-size:14px;}
+.menuInfo p{font-size:12px;}
+
+
+
+
+/*mainCon03*/
+
+/*mainCon04*/
+.mainCon04{background-image:url(../images/main/visual02.jpg);background-attachment:inherit;padding:100px 0;}
+.mainCon04 h2{font-family:'NanumMyeongjo';font-weight:900;}
+.mainCon04 .Btn{width:280px;margin-top:30px;}
+
+
+
+/*mainCon05*/
+.mainCon05{background:#BEB4AF;color:#fff;text-align:center;padding:40px 0;}/*스판이라서 인라인이라 텍스트어라인센터*/
+
+.mainCon05 span{vertical-align: middle;font-size:12px;}/*스판이라서 인라인이라:세로중간정렬가능*/
+.mainCon05 .con05Tit{font-size:22px;margin-right:40px;font-family:'NanumMyeongjo';}
+
+.con05BBtn{}
+.con05BBtn a{}
+.con05BBtn a img{width:40px;margin-left:20px;}
+/*mainCon05*/
+/*mainCon06*/
+
+.mainCon06{background:url(../images/main/bg_visual.jpg) no-repeat center center;background-size:cover;padding:50px 0;}
+
+.mainCon06 ul{}
+.mainCon06 li{width:300px;text-align:center;float:left;height:150px;padding:0 15px;box-sizing:border-box;}
+.mainCon06 h4{color:#7d645a;font-size:16px;font-family:'NanumMyeongjo';font-weight:900;line-height:20px;}
+.mainCon06 h4 img{vertical-align:middle;width:20px;margin-right:5px;}/*스판이라서 인라인이라:세로중간정렬가능*/
+.mainCon06 h4 span{vertical-align:middle;}/*스판이라서 인라인이라:세로중간정렬가능*/
+.mainCon06 li p{font-size:12px;}
+
+
+
+/*mainCon06*/
